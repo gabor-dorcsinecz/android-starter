@@ -1,11 +1,11 @@
 # android-starter
 Android Starter Project with jetpack compose and gradlew
   
-Generate APK
+Generate APK:  
 `./gradlew assembleDebug`
   
-Install APK
+Install APK:  
 `./gradlew installDebug`
   
-Start app
+Start app:  
 `adb shell am start -n com.example.helloworld/.MainActivity`
